@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.my-container {
+  max-width: 400px !important;
+  margin-top: 20px !important;
 }
+
+input:focus {
+  border-bottom: 2px solid #673ab7 !important;
+  box-shadow: none !important;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.imageStyles {
+  border: 1px solid #673ab7;
+  border-radius: 50%;
+  height: 200px;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 2.5rem;
+  border-left: 5px solid #ee6e73;
+  border-bottom: 1px solid #171515;
+}
+
+.card-panel {
+  margin-top: 4rem !important;
+  margin: auto !important;
+}
+
+.float-container {
+  border: 1px solid #fff;
+  padding: 20px;
+  height: 500px;
+}
+
+.float-child-one {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  border: 2px solid #fff;
+  height: 500px;
+} 
+
+.float-child-two {
+  width: 70%;
+  float: right;
+  padding: 20px;
+  border: 2px solid #fff;
+  height: 500px;
+} 
